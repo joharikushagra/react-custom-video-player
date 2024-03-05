@@ -18,6 +18,8 @@ Additional Features
 - Responsiveness
 
 ## Handling Scale
+👉 Playlist consist of **20000** videos in live demo app
+
 Playlist is implemented using **Virtualized List** for scaling purposes. This would render only certain count of list keeping the size and latency low in case of large number of videos
 
 ## Getting Started
