@@ -43,7 +43,7 @@ const VideoPage = () => {
           </div>
         </div>
         <div className="flex flex-col items-start flex-1  h-max mt-6 mr-2 rounded-lg border-2 border-neutral-700">
-          <div className="font-extrabold text-neutral-200 text-xl px-4 mb-3 py-2 bg-neutral-800 h-full w-full">My Mix</div>
+          <div className="font-extrabold text-neutral-200 text-xl px-4 mb-3 py-2 bg-neutral-800 h-max w-full">My Mix</div>
           <div className="w-full h-[360px] px-4">
             <Playlist
               videos={videos}

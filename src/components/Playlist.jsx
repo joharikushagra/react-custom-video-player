@@ -59,7 +59,6 @@ const Playlist = ({ videos, selectVideo, currentVideoIndex }) => {
     <AutoSizer>
       {({ width, height }) => 
       {
-        console.log(width,height)
         return (
         <List
           rowHeight={cache?.rowHeight}
