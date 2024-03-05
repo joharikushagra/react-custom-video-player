@@ -1,6 +1,8 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
 
+
+// not used
 const PlaylistVideo = ({ video, index, selectVideo, currentVideoIndex }) => {
   return (
     <div onClick={()=> selectVideo(video?.id)} className={`flex gap-4 item-center py-2 cursor-pointer hover:scale-95 hover:bg-neutral-800 transition ease-in ${(currentVideoIndex === video?.id) && 'bg-[#062125] p-2'}`}>
