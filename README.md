@@ -5,7 +5,6 @@
 
 
 In house react-player with the following features:
-- Implement a video player with essential functionalities:
 - Play/Pause toggle.
 - Seek functionality.
 - Timer displaying current playback time and duration.
