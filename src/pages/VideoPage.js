@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { videoData } from "../data";
+import { videoData, get20000Videos } from "../data";
 import Playlist from "../components/Playlist";
 import Player from "../components/Player";
 
 const VideoPage = () => {
-  const [videos, setVideos] = useState(videoData.categories[0]?.videos);
+  // const [videos, setVideos] = useState(videoData.categories[0]?.videos);
+  const [videos, setVideos] = useState(get20000Videos());
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const video = videos[currentVideoIndex];
   const handleNextVideoPlay = () => {
