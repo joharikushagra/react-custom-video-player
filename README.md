@@ -3,6 +3,7 @@
 
 👉 [Click here for lighthouse report](https://github.com/joharikushagra/react-custom-video-player/files/14499088/lighhouse.report.pdf)
 
+![rigi](https://github.com/joharikushagra/react-custom-video-player/assets/57484457/ee20c4ba-f9ef-4807-a545-d2f8a82e5777)
 
 In house react-player with the following features:
 - Play/Pause toggle.
